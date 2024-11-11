@@ -128,4 +128,4 @@ class Boy:
 
     def fire_ball(self):
         ball = Ball(self.x, self.y, self.face_dir * 10)
-        game_world.add_object(ball)  # 이 줄 다음의 잘못된 코드 제거
+        game_world.add_object(ball)
